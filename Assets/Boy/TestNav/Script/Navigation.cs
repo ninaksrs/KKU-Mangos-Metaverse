@@ -80,6 +80,10 @@ public class Navigation : MonoBehaviour
     {
         transform.parent.GetComponent<ThirdPersonController>().enabled = false;
         transform.parent.position = Targets[i].position;
+        Invoke("setPcontrol", 0.1f);
+    }
+    public void setPcontrol()
+    {
         transform.parent.GetComponent<ThirdPersonController>().enabled = true;
     }
     public void DrawPath()
