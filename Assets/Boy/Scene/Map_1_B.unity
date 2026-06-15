@@ -6379,9 +6379,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3bf5864872fe94fabddacfd3f50e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EventTrigger
-  Player: {fileID: 0}
-  Trigger: {fileID: 1901446256}
-  EventOBJ: {fileID: 2099543979}
+  inrange: 0
+  active: 0
+  obj: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &1693462628
 GameObject:
   m_ObjectHideFlags: 0
