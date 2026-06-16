@@ -1266,13 +1266,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b8f46e4e0da234399694e1b146a5c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Navigation
-  Targets:
-  - {fileID: 0}
-  Buttons:
-  - {fileID: 0}
+  Targets: []
+  Buttons: []
   Target: {fileID: 0}
   DistancefromTarget: 0
-  DistText: {fileID: 780401794}
+  DistText: {fileID: 0}
 --- !u!120 &1073999729
 LineRenderer:
   serializedVersion: 3
@@ -2862,6 +2860,10 @@ PrefabInstance:
     - target: {fileID: 5967693279020894622, guid: 94af5a7a43427c840b02f2c0c875ae2e, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593456021457025098, guid: 94af5a7a43427c840b02f2c0c875ae2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
