@@ -64,7 +64,7 @@ public class Navigation : MonoBehaviour
         for (int i = 0; i < Buttons.Length; i++)
         {
             int I = i;
-            Buttons[I].onClick.AddListener(() => tp(I));
+            Buttons[I].onClick.AddListener(() => StartCoroutine(tp(I)));
         }
         DistText.gameObject.SetActive(true);
     }
@@ -76,10 +76,11 @@ public class Navigation : MonoBehaviour
         line.enabled = true;
         DistText.gameObject.SetActive(true);
     }
-    public void tp(int i)
+    public IEnumerator tp(int i)
     {
         transform.parent.GetComponent<ThirdPersonController>().enabled = false;
         transform.parent.position = Targets[i].position;
+        yield return new WaitForSeconds(0.1f);
         transform.parent.GetComponent<ThirdPersonController>().enabled = true;
     }
     public void DrawPath()

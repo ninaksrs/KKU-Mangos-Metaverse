@@ -20,14 +20,14 @@ public class EventTrigger : MonoBehaviour
                 obj.SetActive(false);
                 active = false;
                 Cursor.lockState = CursorLockMode.Locked;
-                player.GetComponent<PlayerInput>().enabled = false;
+                player.GetComponent<ThirdPersonController>().enabled = false;
             }
             else
             {
                 obj.SetActive(true);
                 active = true;
                 Cursor.lockState = CursorLockMode.None;
-                player.GetComponent<PlayerInput>().enabled = true;
+                player.GetComponent<ThirdPersonController>().enabled = true;
             }
         }
     }
@@ -47,7 +47,7 @@ public class EventTrigger : MonoBehaviour
             obj.SetActive(false);
             active = false;
             Cursor.lockState = CursorLockMode.Locked;
-            player.GetComponent<PlayerInput>().enabled = true;
+            player.GetComponent<ThirdPersonController>().enabled = true;
         }
     }
 }

@@ -5,6 +5,76 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WHITE'
+    second: {fileID: 2100000, guid: 9f32397df47ab704eabe2f3bf9808166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_bricks_1
+    second: {fileID: 2100000, guid: 777fba35efcec304182dc170d64c0c9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_gol
+    second: {fileID: 2100000, guid: 5f703167eaf5b3f4188825bce7211e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_1
+    second: {fileID: 2100000, guid: 8bec6c738bc89a34ab990f1dc99a3129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Bricks
+    second: {fileID: 2100000, guid: b2039dfdc7f82b6438da797ae418adb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Bricks_1
+    second: {fileID: 2100000, guid: e2d851e4414881e4597e50442439df22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Bricks_2
+    second: {fileID: 2100000, guid: 84ff25c55070a1a47b16ae243498c324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Gravel
+    second: {fileID: 2100000, guid: ada332226a5fe3d43a7b56befa968668, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PavingStones
+    second: {fileID: 2100000, guid: acf1715426aedbd48b018bcaf8c16f4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_T2
+    second: {fileID: 2100000, guid: fed27faef370b9342b882b6ade9df904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_T_Floor_Tile_Red1
+    second: {fileID: 2100000, guid: fac0529a65fd9bf419feeb79298f2aa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_photo
+    second: {fileID: 2100000, guid: 72aefcf831bea134aa724636d46b2811, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_tiles_black
+    second: {fileID: 2100000, guid: c22c918eb29308643b27046d9547ac57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_tone
+    second: {fileID: 2100000, guid: b1998ae3e8fb79741b1f9cea16541e03, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Asphalt031_1K-JPG_Color
