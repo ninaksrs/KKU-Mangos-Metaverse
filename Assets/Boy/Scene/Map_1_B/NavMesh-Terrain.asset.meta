@@ -1,8 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 733532549b2e3ef4192e4fe5d5e24ec5
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
+=======
+<<<<<<<< HEAD:Assets/Terrain/New Terrain 3.asset.meta
+guid: a79202c0c9347ec41ba575865f640e32
+========
+guid: 733532549b2e3ef4192e4fe5d5e24ec5
+>>>>>>>> parent of e548e9a (Merge branch 'main' of https://github.com/ninaksrs/Mangos-KKU-NEO-Stadium into Boy):Assets/Boy/Scene/Map_1_B/NavMesh-Terrain.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+>>>>>>> parent of e548e9a (Merge branch 'main' of https://github.com/ninaksrs/Mangos-KKU-NEO-Stadium into Boy)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

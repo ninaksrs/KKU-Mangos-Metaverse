@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 6d8e4889c4047f94a963c0cc53c2e175
 ModelImporter:
   serializedVersion: 21300
@@ -11,6 +12,8 @@ ModelImporter:
     materialSearch: 1
     materialLocation: 0
 =======
+=======
+>>>>>>> parent of e548e9a (Merge branch 'main' of https://github.com/ninaksrs/Mangos-KKU-NEO-Stadium into Boy)
 guid: b930e2650d295e040b8a0174df281c45
 ModelImporter:
   serializedVersion: 24200
@@ -21,21 +24,13 @@ ModelImporter:
     materialName: 0
     materialSearch: 1
     materialLocation: 1
->>>>>>> origin/main
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-<<<<<<< HEAD
-    removeConstantScaleCurves: 1
-    motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-=======
     removeConstantScaleCurves: 0
     motionNodeName: 
->>>>>>> origin/main
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -58,10 +53,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-<<<<<<< HEAD
-=======
     importPhysicalCameras: 1
->>>>>>> origin/main
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -79,12 +71,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-<<<<<<< HEAD
-=======
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
->>>>>>> origin/main
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -95,10 +84,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-<<<<<<< HEAD
-=======
     strictVertexDataChecks: 0
->>>>>>> origin/main
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -131,22 +117,9 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-<<<<<<< HEAD
-=======
   importBlendShapeDeformPercent: 1
->>>>>>> origin/main
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-<<<<<<< HEAD
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253340
-  packageName: URP Tree Models
-  packageVersion: 1.2.3
-  assetPath: Assets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_3.fbx
-  uploadId: 864048
-=======
->>>>>>> origin/main
