@@ -121,8 +121,11 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!1 &309435144
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,10 +886,13 @@ Mesh:
         m_IndexStart: 0
         m_IndexCount: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f07f54e (map_5 map_6)
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!1 &485894590
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,12 +906,16 @@ GameObject:
   - component: {fileID: 485894591}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 485894594}
 =======
 >>>>>>> f07f54e (map_5 map_6)
 =======
   - component: {fileID: 485894594}
 >>>>>>> 8064619 (map_4)
+=======
+  - component: {fileID: 485894594}
+>>>>>>> origin/main
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -989,8 +999,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!114 &485894594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2125,10 +2138,13 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f07f54e (map_5 map_6)
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!1 &801410038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,8 +2274,11 @@ MonoBehaviour:
   m_ShadowRenderingLayers: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!43 &871636057
 Mesh:
   m_ObjectHideFlags: 0
@@ -3148,10 +3167,13 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f07f54e (map_5 map_6)
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!1 &1462544917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3247,8 +3269,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!43 &1670838451
 Mesh:
   m_ObjectHideFlags: 0
@@ -4090,10 +4115,13 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f07f54e (map_5 map_6)
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4103,8 +4131,11 @@ SceneRoots:
   - {fileID: 1462544920}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
   - {fileID: 1952107173}
   - {fileID: 2051069498}
   - {fileID: 1171161600}
@@ -4114,7 +4145,10 @@ SceneRoots:
   - {fileID: 517611275}
   - {fileID: 1703964702}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f07f54e (map_5 map_6)
 =======
 >>>>>>> 8064619 (map_4)
+=======
+>>>>>>> origin/main
