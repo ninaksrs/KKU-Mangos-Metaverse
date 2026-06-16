@@ -53,7 +53,7 @@ public class ThrowBall : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            FindFirstObjectByType<EventTrigger>().Player.gameObject.SetActive(true);
+            FindFirstObjectByType<EventTrigger>().player.gameObject.SetActive(true);
             gameObject.SetActive(false);
         }
     }
