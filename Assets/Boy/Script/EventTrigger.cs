@@ -1,6 +1,4 @@
-using StarterAssets;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class EventTrigger : MonoBehaviour
 {
@@ -12,7 +10,7 @@ public class EventTrigger : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)&&inrange)
+        if (Input.GetKeyDown(KeyCode.E))
         {
             print("AAAA");
             if (active)
@@ -20,14 +18,12 @@ public class EventTrigger : MonoBehaviour
                 obj.SetActive(false);
                 active = false;
                 Cursor.lockState = CursorLockMode.Locked;
-                player.GetComponent<PlayerInput>().enabled = false;
             }
             else
             {
                 obj.SetActive(true);
                 active = true;
                 Cursor.lockState = CursorLockMode.None;
-                player.GetComponent<PlayerInput>().enabled = true;
             }
         }
     }
@@ -46,8 +42,7 @@ public class EventTrigger : MonoBehaviour
         {
             obj.SetActive(false);
             active = false;
-            Cursor.lockState = CursorLockMode.Locked;
-            player.GetComponent<PlayerInput>().enabled = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
