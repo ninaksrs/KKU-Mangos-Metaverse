@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 0a5be2fdf196bca48b0ea83ffbf90357
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+=======
 guid: 47d230cef4c8f4e4db03eb3f695ca176
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
+>>>>>>> origin/main
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -20,12 +28,19 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
+=======
     flipGreenChannel: 0
+>>>>>>> origin/main
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
+  ignoreMasterTextureLimit: 0
+=======
   ignoreMipmapLimit: 0
+>>>>>>> origin/main
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -55,7 +70,11 @@ TextureImporter:
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
+<<<<<<< HEAD
+  textureShape: 2
+=======
   textureShape: 1
+>>>>>>> origin/main
   singleChannelComponent: 0
   flipbookRows: 1
   flipbookColumns: 1
@@ -64,23 +83,39 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+=======
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
+>>>>>>> origin/main
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
+    textureCompression: 0
+=======
     textureCompression: 1
+>>>>>>> origin/main
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+=======
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+>>>>>>> origin/main
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -90,10 +125,28 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+=======
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+>>>>>>> origin/main
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -103,14 +156,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+=======
     ignorePlatformSupport: 0
+>>>>>>> origin/main
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
+<<<<<<< HEAD
+=======
     customData: 
+>>>>>>> origin/main
     physicsShape: []
     bones: []
     spriteID: 
@@ -120,6 +179,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253340
+  packageName: URP Tree Models
+  packageVersion: 1.2.3
+  assetPath: Assets/Tree_Packs/URP_Tree_Pack/Textures/Global/501-free-hdri-skies-com.hdr
+  uploadId: 864048
+=======
     spriteCustomMetadata:
       entries: []
     nameFileIdTable: {}
@@ -128,3 +203,4 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+>>>>>>> origin/main
