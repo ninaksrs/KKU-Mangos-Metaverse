@@ -8,56 +8,55 @@ using UnityEngine.UI;
 
 public class Navigation : MonoBehaviour
 {
-    private NavMeshAgent nav;
-    private LineRenderer line;
     public Transform[] Targets;
     public Button[] Buttons;
     public Transform Target;
     public float DistancefromTarget;
     public TextMeshProUGUI DistText;
+
+    public GameObject obj;
+    public bool active;
     private void Awake()
     {
-        nav = GetComponent<NavMeshAgent>();
-        line = GetComponent<LineRenderer>();
     }
 
     void Start()
     {
-        nav.isStopped = true;
         SetButtons();
-        DistText.gameObject.SetActive(false);
+        //DistText.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Target != null)
+        openTPUI();
+
+    }
+
+    public void openTPUI()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            DrawPath();
-            DistancefromTarget = Dist();
-        }
-        else
-        {
-            return;
-        }
-        if (nav.isOnNavMesh && transform.position != transform.parent.position)
-        {
-            transform.position = transform.parent.position;
-        }
-        else
-        {
-            return;
+            print("AAAA");
+            openMap();
         }
     }
-    public float Dist()
+    public void openMap()
     {
-        float dist = 0;
-        Vector3[] point = nav.path.corners;
-        for (int i = 1; i < nav.path.corners.Length; i++)
+        if (active)
         {
-            dist += Vector3.Distance(point[i - 1], point[i]);
+            obj.SetActive(false);
+            active = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            GetComponentInParent<ThirdPersonController>().enabled = true;
         }
-        return dist;
+        else
+        {
+            obj.SetActive(true);
+            active = true;
+            Cursor.lockState = CursorLockMode.None;
+            GetComponentInParent<ThirdPersonController>().enabled = false;
+        }
     }
     public void SetButtons()
     {
@@ -66,15 +65,7 @@ public class Navigation : MonoBehaviour
             int I = i;
             Buttons[I].onClick.AddListener(() => StartCoroutine(tp(I)));
         }
-        DistText.gameObject.SetActive(true);
-    }
-    public void setpart(int I)
-    {
-        Target = Targets[I];
-        print(I);
-        nav.SetDestination(Target.position);
-        line.enabled = true;
-        DistText.gameObject.SetActive(true);
+        //DistText.gameObject.SetActive(true);
     }
     public IEnumerator tp(int i)
     {
@@ -87,36 +78,6 @@ public class Navigation : MonoBehaviour
     }
     public void setPcontrol()
     {
-
         transform.parent.GetComponent<ThirdPersonController>().enabled = true;
-    }
-    public void DrawPath()
-    {
-        SetDistText();
-        Vector3[] Corner = nav.path.corners;
-        line.positionCount = Corner.Length;
-        for (int i = 0; i < Corner.Length; i++)
-        {
-            Vector3 tarpos = Corner[i];
-            tarpos.y += 1;
-
-            line.SetPosition(i, tarpos);
-        }
-
-        if (Vector3.Distance(transform.position, Target.position) < 1)
-        {
-            DistText.gameObject.SetActive(false);
-            line.enabled = false;
-            Target = null;
-        }
-        else
-        {
-            return;
-        }
-    }
-    public void SetDistText()
-    {
-        DistText.gameObject.transform.LookAt(Camera.main.transform.position);
-        DistText.text = "Disance Remaining: "+Dist().ToString("0.00");
     }
 }
