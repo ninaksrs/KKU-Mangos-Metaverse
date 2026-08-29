@@ -6,8 +6,10 @@ public class CharSelector : MonoBehaviour
     public Avatar[] Avatars;
     public Animator animator;
     public GameObject P;
+
     private void Start()
     {
+        print(gameObject.name);
         P.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
     }
@@ -27,6 +29,6 @@ public class CharSelector : MonoBehaviour
         }
         P.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
-        Destroy(gameObject);
+        Destroy(gameObject.transform.parent.gameObject);
     }
 }

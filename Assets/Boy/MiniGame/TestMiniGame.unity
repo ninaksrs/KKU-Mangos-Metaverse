@@ -297,6 +297,8 @@ MonoBehaviour:
   Target: {fileID: 0}
   DistancefromTarget: 0
   DistText: {fileID: 1406802538}
+  obj: {fileID: 0}
+  active: 0
 --- !u!120 &386543323
 LineRenderer:
   serializedVersion: 3
@@ -983,8 +985,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3bf5864872fe94fabddacfd3f50e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EventTrigger
-  Player: {fileID: 0}
-  EventOBJ: {fileID: 2042864015}
+  inrange: 0
+  active: 0
+  obj: {fileID: 2042864015}
+  player: {fileID: 1692140894}
 --- !u!1 &618298364
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2364,11 @@ Transform:
   - {fileID: 387449349}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1692140894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 1355283356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1707161899
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,13 +11,7 @@ public class Ball : MonoBehaviour
         launchDirection.y *= 1.5f;
         Vector3 initialVelocity = launchDirection * launchVelocity;
         rb.linearVelocity = initialVelocity;
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            Invoke("reposition",3);
-        }
+        Invoke("reposition", 5);
     }
     public void reposition() 
     {

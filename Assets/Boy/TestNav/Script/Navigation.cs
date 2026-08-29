@@ -78,6 +78,9 @@ public class Navigation : MonoBehaviour
     }
     public void setPcontrol()
     {
-        transform.parent.GetComponent<ThirdPersonController>().enabled = true;
+        obj.SetActive(false);
+        active = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        GetComponentInParent<ThirdPersonController>().enabled = true;
     }
 }

@@ -6,28 +6,23 @@ public class EventTrigger : MonoBehaviour
 {
     public bool inrange, active;
     public GameObject obj, player;
-    private void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-    }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)&&inrange)
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            print("AAAA");
             if (active)
             {
+                player.gameObject.SetActive(true);
                 obj.SetActive(false);
-                active = false;
+                active = false; print("ZXC");
                 Cursor.lockState = CursorLockMode.Locked;
-                player.GetComponent<ThirdPersonController>().enabled = true;
             }
-            else
+            else if(!active && inrange)
             {
+                player.gameObject.SetActive(false);
                 obj.SetActive(true);
-                active = true;
+                active = true;print("ASD");
                 Cursor.lockState = CursorLockMode.None;
-                player.GetComponent<ThirdPersonController>().enabled = false;
             }
         }
     }
