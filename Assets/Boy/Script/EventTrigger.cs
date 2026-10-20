@@ -6,31 +6,16 @@ public class EventTrigger : MonoBehaviour
 {
     public bool inrange, active;
     public GameObject obj, player;
-    private void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            if (active)
-            {
-                player.gameObject.SetActive(true);
-                obj.SetActive(false);
-                active = false; print("ZXC");
-                Cursor.lockState = CursorLockMode.Locked;
-            }
-            else if(!active && inrange)
-            {
-                player.gameObject.SetActive(false);
-                obj.SetActive(true);
-                active = true;print("ASD");
-                Cursor.lockState = CursorLockMode.None;
-            }
-        }
+        player = Player.Instance.gameObject;
+        obj = Player.Instance.BusLineUI;
     }
-
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject == player)
         {
+            obj.SetActive(true);
             inrange = true;
         }
     }

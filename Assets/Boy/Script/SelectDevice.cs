@@ -7,13 +7,12 @@ public class SelectDevice : MonoBehaviour
     {
 
         PhoneUI.SetActive(false);
-        print("AAHUJGukj");
         CharSelect.SetActive(true);
         Destroy(gameObject);
     }
     public void Phone()
     {
-        PhoneUI.SetActive(false);
+        PhoneUI.SetActive(true);
         CharSelect.SetActive(true);
         Destroy(gameObject);
     }
