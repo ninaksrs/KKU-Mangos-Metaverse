@@ -10,19 +10,17 @@ public class Navigation : MonoBehaviour
 {
     public Transform[] Targets;
     public Button[] Buttons;
+    public Button[] ENG_button;
     public Transform Target;
     public float DistancefromTarget;
     public TextMeshProUGUI DistText;
 
     public GameObject obj;
     public bool active;
-    private void Awake()
-    {
-    }
 
     void Start()
     {
-        SetButtons();
+        //SetButtons();
         //DistText.gameObject.SetActive(false);
     }
 
@@ -58,12 +56,12 @@ public class Navigation : MonoBehaviour
             GetComponentInParent<ThirdPersonController>().enabled = false;
         }
     }
-    public void SetButtons()
+    public void SetButtons(Button[] B)
     {
-        for (int i = 0; i < Buttons.Length; i++)
+        for (int i = 0; i < B.Length; i++)
         {
             int I = i;
-            Buttons[I].onClick.AddListener(() => StartCoroutine(tp(I)));
+            B[I].onClick.AddListener(() => StartCoroutine(tp(I)));
         }
         //DistText.gameObject.SetActive(true);
     }
